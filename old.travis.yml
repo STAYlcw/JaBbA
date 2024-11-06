@@ -15,13 +15,13 @@ before_install:
 - make
 - cd ..
 - export PATH=samtools-1.6/:$PATH
-- curl -OL https://raw.githubusercontent.com/craigcitro/r-travis/master/scripts/travis-tool.sh
+- curl -OL https://raw.githubusercontent.com/STAYlcw/JaBbA/master/travis-tool.sh
 - chmod 755 ./travis-tool.sh
 install:
 - ./travis-tool.sh install_github mskilab/bamUtils
 - ./travis-tool.sh install_github mskilab/gUtils
 - ./travis-tool.sh install_github mskilab/gTrack
-- ./travis-tool.sh install_github mskilab/gGnome
+- ./travis-tool.sh install_github STAYlcw/gGnome
 script:
 - "Rscript -e 'devtools::install_bioc(\"copynumber\")'"
 - "Rscript -e 'setRepositories(graphics = FALSE, ind = 1:6);install.packages(\"sequenza\")'"

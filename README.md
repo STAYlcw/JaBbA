@@ -74,7 +74,7 @@ export CPLEX_DIR=/path/to/your/copy/of/CPLEX_Studio/
 3. Install JaBbA 
 
 ```{r}
-devtools::install_github('mskilab-org/JaBbA')
+devtools::install_github('STAYlcw/JaBbA')
 ```
 
 4. For convenience, add `jba` executable to your `PATH`
@@ -112,7 +112,7 @@ As of ```v1.1``` JaBbA can now be run with [Gurobi](https://www.gurobi.com/produ
 
 4. Install JaBbA 
 ```{r}
-devtools::install_github('mskilab-org/JaBbA')
+devtools::install_github('STAYlcw/JaBbA')
 ```
 
 5. For convenience, add `jba` executable to your `PATH`
