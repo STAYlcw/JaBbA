@@ -12,7 +12,7 @@ biocViews:
   bioc::3.15/rtracklayer,
   bioc::3.15/VariantAnnotation,
 Remotes:
-  github::/bamUtils,
+  github::mskilab-org/bamUtils,
   github::mskilab-org/gUtils,
   github::mskilab-org/gTrack,
   github::mskilab-org/gChain,
